@@ -168,3 +168,5 @@ function BiggestNumber() {
      */
       this.logratim = (a) => new Decimal(a).floor() 
 }
+
+BiggestNumber = new BiggestNumber();
