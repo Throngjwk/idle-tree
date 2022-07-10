@@ -135,5 +135,36 @@ function BiggestNumber() {
      * @param {number} b Divide Letter 2
      * @returns {string} Convert to Divide
      */
-      this.addiontial = (a, b) => new Decimal(a).div(b) 
+      this.divide = (a, b) => new Decimal(a).div(b) 
+
+    /**
+     * Power Math
+     * @param {number} a Power Letter 1 get a a ^ b from tertate
+     * @param {number} b Power Letter 2
+     * @returns {string} Convert to Divide
+     */
+     this.divide = (a, b) => new Decimal(a).pow(b) 
+
+     /**
+     * Logratim Math
+     * @param {number} a Logratim Letter 1 (log(b)(10))
+     * @param {number} b Logratim Letter 2
+     * @returns {string} Convert to Logratim
+     */
+      this.logratim = (a, b) => new Decimal(a).log(b) 
+
+    /**
+     * Tertate Math
+     * @param {number} a Tertate Letter 1
+     * @param {number} b Tertate Letter 2
+     * @returns {string} Convert to Tertate
+     */
+     this.logratim = (a, b) => new Decimal(a).tetrate(b) 
+
+     /**
+     * Floor Math
+     * @param {number} a Floor Letter 1
+     * @returns {string} Convert to Floor
+     */
+      this.logratim = (a) => new Decimal(a).floor() 
 }
